@@ -666,8 +666,8 @@ input[type=button] {
   width: 45%;
 }
 
-.map {
-  max-height: 350px;
+.map figure{
+  padding-bottom: 45.5%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -790,8 +790,8 @@ input[type=button] {
     font-size: 3em;
   }
 
-  .map {
-    max-height: 450px;
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {

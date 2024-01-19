@@ -127,6 +127,7 @@ h2 {
  font-family: 'Poppins', sans-serif;
  font-weight: 500;
  font-size: 1.875em;
+ margin: 0;
 }
  
 h3, 
@@ -243,6 +244,15 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  
+}
+
+footer .social-icons p i {
+  font-size: 1.312em;
 }
 
 footer .copyright {

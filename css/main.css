@@ -159,7 +159,7 @@ address {
 .content-wrapper {
     width: 90%;
     margin: 50px 0;
-    border: 3px red dotted;
+   /* border: 3px red dotted;*/
 }
 
    /*-- Base Header - Footer Styles --*/
@@ -180,7 +180,7 @@ header .content-wrapper {
 }
 
 .header-divider {
-  border: 3px red dotted;
+  /*border: 3px red dotted;*/
   background: #3a3a3a;
   height: 1px;
   width: 100%;
@@ -217,7 +217,7 @@ footer {
   align-items: center;
   text-align: center;
   background-color: #202322;
-  border: 3px red dotted;
+  /*border: 3px red dotted;*/
 }
 
 footer p {
@@ -226,7 +226,7 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
-  border: 3px red dotted;
+  /*border: 3px red dotted;*/
 }
 
 footer .contact {
@@ -298,6 +298,7 @@ input[type=text] {
   color: #2a423a;
   font-style: italic;
   padding: 1em;
+  margin-bottom: 20px;
 }
  
 input[type=button] {
@@ -343,6 +344,7 @@ input[type=button] {
 .features i {
 	font-size: 3.75em;
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .features p {
@@ -357,6 +359,7 @@ input[type=button] {
   background-color: #2a423a;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .reviews h2 {
@@ -574,6 +577,7 @@ input[type=button] {
 
   .hero-area {
     min-height: 600px;
+    padding-bottom: 100px;
   } 
 
 
@@ -596,6 +600,10 @@ input[type=button] {
   aside .content-wrapper .form {
     width: 40%;
     margin: 0;
+  }
+
+  input[type=text] {
+    margin-bottom: 0;
   }
 
    /* Features Styles */
@@ -650,17 +658,21 @@ input[type=button] {
     flex-direction: row;
   }
 
-  .footer h4 {
+  footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
 
-  .footer p {
+  footer p {
     line-height: 1.285;
   }
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer .social {
+    width: 30%;
   }
 
   footer .copyright {
